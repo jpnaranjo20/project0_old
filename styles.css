@@ -1,0 +1,62 @@
+h1 {
+    color: black; /*#6c1796*/
+    text-align: center;
+   }
+/*look for CSS property documentation*/
+
+div {
+  border: 5px dotted red;
+  background-color: teal;
+  width: 100px;
+  height: 200px;
+  margin: 30px; /* space around outside the border of the element*/
+  padding: 20px; /* between the content of that elemeent and that element's border.*/
+  font-family: garamond, sans-serif; /* include the font you wnat but after that any additional possible fonts to use. */
+  font-size: 12px;
+}
+
+img {
+
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 5px;
+  width: auto;
+  text-align: center;
+}
+
+th {
+  background-color: lightgrey;
+}
+
+#top {
+  font-size: 36px;
+}
+
+#middle {
+  font-size: 28px;
+}
+
+#bottom {
+  font-size: 12px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.description {
+  font-family: garamond;
+  font-size: 20px;
+}
+
+/* id and class are just ways to identify elements in a document, id must be UNIQUE, but there can be a lot of sthings that have a specific class
+they can be used in the same element. they can be used in anything, i.e. not just divs.*/
+
+/* use GitHub Pages to deploy to the internet */

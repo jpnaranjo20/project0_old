@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+
+div {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  /* include the font you want but after that any additional possible fonts to use. */
+}
+
+h1 {
+  color: #d5db23;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+table {
+  border: 2px solid #d5db23;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  align-self: center;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+#top {
+  font-size: 34px;
+  color: white;
+  text-align: center;
+}
+
+#middle {
+  font-size: 28px;
+  text-align: center;
+  color: #d5db23;
+}
+
+#bottom {
+  font-size: 20px;
+  text-align: center;
+  color: #d5db23;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: #d5db23;
+}
+
+/*# sourceMappingURL=styleProject.css.map */

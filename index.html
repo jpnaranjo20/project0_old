@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Webpage about Star Wars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleProject0.css">
+        <style>
+          @media (min-width: 600px) {
+            h1::before {
+              content: "Welcome to my webpage!";
+            }
+          }
+          @media (max-width: 599px) {
+            h1::before {
+              content: "Welcome!";
+            }
+          }
+        </style>
+    </head>
+    <body>
+      <img src="logo.png" alt="logo" class="center">
+
+      <div id="top">
+        <h1></h1>
+        I'm a <span class="emphasis">huge</span> Star Wars fan.
+      </div>
+
+      <div id ="middle">
+        <h2>Here you will find information about some relevant aspects of the Star Wars saga.</h2>
+        The following links contain information regarding different topics:
+      </div>
+
+      <div id="bottom">
+        <ul>
+          <li><a href="tablefilms.html">Films</a></li>
+          <li><a href="tableTVshows.html">TV Shows</a></li>
+          <li><a href="characters.html">Main Characters</a></li>
+          <li><a href="videogames.html">Videogames</a></li>
+        </ul>
+      </div>
+
+    </body>
+</html>

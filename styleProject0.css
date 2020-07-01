@@ -1,0 +1,96 @@
+/*Constants*/
+body {
+  background-color: black;
+}
+
+/*Nesting*/
+div {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+div p {
+  color: #d5db23;
+}
+
+div > ul {
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  color: #d5db23;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  align-self: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+/*Inheritance*/
+td {
+  color: black;
+  background-color: white;
+}
+
+td > img {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding-right: 25%;
+}
+
+th, td {
+  background-color: #d5db23;
+}
+
+/*IDs*/
+#top {
+  font-size: 34px;
+  color: white;
+  text-align: center;
+}
+
+#middle {
+  font-size: 28px;
+  text-align: center;
+  color: #d5db23;
+}
+
+#bottom {
+  font-size: 20px;
+  text-align: center;
+  color: #d5db23;
+}
+
+/*Classes*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: #d5db23;
+}
+
+/*# sourceMappingURL=styleProject0.css.map */

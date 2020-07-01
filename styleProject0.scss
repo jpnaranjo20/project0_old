@@ -1,0 +1,106 @@
+/*Constants*/
+$color1: black;
+$color2: rgb(213, 219, 35);
+$color3: white;
+$mediumHeight: 200px;
+$mediumWidth: 100px;
+$margin: 30px;
+$padding: 20px;
+$smallFontSize: 20px;
+$mediumFontSize: 28px;
+$bigFontSize: 34px;
+
+body {
+  background-color: $color1;
+}
+
+/*Nesting*/
+div {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    p {
+      color: $color2;
+    }
+}
+
+div > ul {
+  padding: 20px;
+  color: $color3;
+}
+
+h1 {
+  color: $color2;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+  color: $color3;
+  text-align: center;
+  font-size: $mediumFontSize;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 20px;
+}
+
+th {
+    border: 1px solid $color1;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Inheritance*/
+td {
+  @extend th;
+  color: $color1;
+  background-color: $color3;
+}
+
+td > img {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding-right: 25%;
+}
+
+th {
+    background-color: $color2;
+}
+
+/*IDs*/
+#top {
+  font-size: $bigFontSize;
+  color: $color3;
+  text-align: center;
+}
+
+#middle {
+  font-size: $mediumFontSize;
+  text-align: center;
+  color: $color2;
+}
+
+#bottom {
+  font-size: $smallFontSize;
+  text-align: center;
+  color: $color2;
+}
+
+/*Classes*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: $color2;
+}
